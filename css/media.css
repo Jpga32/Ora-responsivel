@@ -1,0 +1,13 @@
+.wrapper { 
+  display: flex;
+}
+
+.cell {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cntSeparator { display: none; }
