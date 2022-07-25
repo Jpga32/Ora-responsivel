@@ -207,6 +207,13 @@ h3 {
     width: 75%;
     margin: auto;
 }
+.valor-normal{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 111rem;
+    left: 850px;
+}
 
 .divisa {
     border-right: solid 2px black;
@@ -435,6 +442,14 @@ footer figure.col-6 {
     }
     .info-cont{
         font-size: 10px;
+    }
+    .valor-normal{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 65%;
+        top: 0;
+        left: 100px;
     }
 
 }
