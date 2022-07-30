@@ -1,7 +1,10 @@
-.wrapper {
+.wrapper-2 {
+  z-index: 1000;
   position: relative;
-  bottom: 13vh;
-  left: 1.5rem;
+  top: 40px;
+  right: 5vw;
+  margin: 0;
+  padding: 0;
 }
 
 .cell-2 {
@@ -12,10 +15,10 @@
     vertical-align: middle;
   }
   
-  #holder-2 {
+  /* #holder-2 {
     width: 100%;
     height: 383px;
     margin: auto;
-  }
+  } */
   
   .cntSeparator { display: none; }

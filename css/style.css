@@ -201,7 +201,7 @@ h3 {
     align-items: center;
     padding: 100px;
     background: rgb(186,175,188);
-background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
+    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
     border-radius: 70px;
     max-height: 300px;
     width: 75%;
@@ -212,7 +212,7 @@ background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35
     align-items: center;
     position: absolute;
     top: 111rem;
-    left: 850px;
+    left: 50vw;
 }
 
 .divisa {
@@ -247,9 +247,9 @@ background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35
 
 /* valores */
 
-.ml {
+/* .ml {
     margin-left: 10vw;
-}
+} */
 
 .curso_title {
     text-align:start;
@@ -284,9 +284,77 @@ background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35
 
 /* form */
 
+.ebook {
+    height: 90vh;
+}
+
+h4{
+color: #fff;
+font-size: 1.5rem;
+}
+
+.vitor {
+    width: 20vw;
+    height: 40vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -415px;
+    left: 50vw;
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+}
+
+.campo input {
+    letter-spacing: 2px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-shadow: #5b5b5b 2px 2px 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #111111;
+}
+
+.campo label {
+    color: #ffffff;
+    font-weight: bolder;
+    display: block;
+    font-size: 17px;
+}
+
+#enviar {
+    display: flex;
+    justify-content: center;
+    background: rgb(186,175,188);
+    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
+    width: 15vw;
+    padding: 10px;
+    font-family: 'lemon';
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
 /* rodapé */
 
+footer {
+    margin: 0;
+    padding: 0;
+}
+
 footer img {
+    position: relative;
+    top: -40px;
     max-width: 250px;
 }
 
@@ -298,11 +366,13 @@ footer figure.col-6 {
     text-decoration: none;
     color: #fff;
 }
+
 .info_roda{
   position: relative;
-  left: 700px;
+  left: 50vw;
   font-size: 16px;
 }
+
 .info-cont{
     color: 3;
     font-size: 17px;
@@ -467,4 +537,23 @@ footer figure.col-6 {
         text-align: start;
     }
 
+}
+@media screen and (max-width: 1024px) {
+    #formata{
+    width: 30%;
+    }
+    .wrapper{
+        width: 100vw;
+    }
+    .container-balao{
+        min-height: 60vh;
+        width: 100%;
+    }
+    .valor-normal{
+     margin-top: 150px;
+    }
+    .ml{
+        margin-left: 90px;
+    }
+    
 }

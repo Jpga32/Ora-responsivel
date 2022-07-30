@@ -143,24 +143,60 @@
              <a href="https://hotmart.com/pt-br/marketplace/produtos/curso-planejamento-tributario/L41700009G?sck=HOTMART_PRODUCT_PAGE"> <button class="comprar_curso" type="submit">Compre Já</button> </a>
             </div>
           </section>
-          <figure class="  text-center col-sx-6 col-md-12 mt-5 ">
+          <figure class="text-center col-sx-6 col-md-12 mt-5 ">
             <img src="img/balao-compras.png" alt="" class="valor-normal ml">
           </figure>
         </div>
       </article>
+      <article class="ebook">
+        <h4>Baixe aqui o E-Book Gratuito</h3>
+          <!-- <img class="vitor" src="img/victor.png" alt=""> -->
+          <img src="img/teste.jpeg" alt="" class="vitor mt-5">
+          <div class="wrapper-2">
+            <div class="cell-2">
+              <h3 class="days">Dias</h3>
+              <h3 class="horas">Horas</h3>
+              <h3 class="min">minutos </h3>
+              <h3 class="seg">segundos</h3>
+              <div id="holder-2">
+                <div class="digits"></div>
+              </div>
+            </div>
+          </div>
+          <form id="my-form" action="https://formspree.io/f/xlezygqr" method="POST">
+            <div class="campo">
+              <label for="nome">Nome:</label>
+              <input type="text" name="nome" id="nome" placeholder="Ex: Fernando da silva">
+            </div>
+          
+            <div class="campo">
+              <label for="email">E-mail:</label>
+              <input type="text" name="email" id="email" placeholder="Ex: Fernando@gmail.com">
+            </div>
+
+            <div class="campo">
+              <label for="telefone">Telefone</label>
+              <input type="text" id="telefone" maxlength="11" placeholder="Ex: (11) 99999-9999" required>
+            </div>
+              
+            <div>
+              <button onclick="Ebook()" type="submit" id="enviar" name="enviar" class="mt-4">Baixe Já </button>
+            </div>
+            <p id="my-form-status"></p>
+          </form>
+      </article>
     </div>
   </main>
-  <footer class=" row col-xs-12 col-md-6">
-    <article class="container  d-flex align-items-center">
+  <footer class="row col-xs-12 col-md-6">
+    <article class="container d-flex align-items-center justify-content-between">
       <figure class="col">
         <img class="logo_roda" src="img/nova_logo.png" alt="">
       </figure>
-      <section class="info_roda col  text-light">
-        <h5 class="text-start info-cont">Informações de contato</h5>
+      <section class="info_roda col text-light">
+        <h5 class="info-cont">Informações de contato</h5>
         <div><a href="">gestores@grupoora.com.br</a></div>
         <div><a href="">(27) 99236-8862</a></div>
         <div><a href="">(27) 3020-0242</a></div>
-     
         <address>
           José Alexandre Buaiz, 350 - Enseada do Suá,<br> Vitória - ES, 29050-545
         </address>
@@ -186,8 +222,6 @@
   <!-- formatação do temporoizador -->
   <script src="js/jquery.countdown.js"></script>
   <script> $(function () { $(".digits").countdown({ image: "img/digits.png", format: "dd:hh:mm:ss", endTime: new Date('August 08 2022  00:00:00') }); }); </script>
-
-
 </body>
 
 </html>

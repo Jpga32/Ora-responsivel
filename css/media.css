@@ -1,5 +1,8 @@
 .wrapper { 
   display: flex;
+  position: relative;
+  bottom: 110px;
+  left: 25px;
 }
 
 .cell {
