@@ -601,6 +601,71 @@ footer figure.col-6 {
    }
 }
 
+@media screen and (max-width: 800px){
+    #logo{
+        position: relative;
+        bottom: 20vh;
+    }
+    .slogan{
+        position: relative;
+        bottom: 35vh;
+    }
+ 
+    .container-balao{
+        max-width: 90vw;
+       max-height: 100vh ;
+    }
+    .descricao{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        top: 20px;
+    }
+    .title{
+        padding-right: 18px;
+    }
+    .valor-normal{
+        width: 30%;
+        margin-left: 90px;
+    }
+    .comprar_curso{
+        position: relative;
+        bottom: 50px;
+        right: 50px;
+    }
+    .wrapper-2{
+        position: relative;
+        top: 100px;
+    }
+    #my-form{
+        margin-top: 50px;
+    }
+    h4{
+        position: relative;
+        bottom: 30px;
+    }
+    .vitor{
+        height: 54vh;
+        width: 30vw;
+        position: relative;
+        bottom: 10vh;
+        border: solid 2px #5b5b5b;
+    }
+    .logo_roda{
+        position: relative;
+        top: 180px;
+        
+    }
+    .info_roda{
+        position: relative;
+        top: 230px;
+        left: 280px;
+    }
+    
+   
+
+}
+
 @media screen and (max-width: 1400px) {
     #formata {
         width: 30%;
