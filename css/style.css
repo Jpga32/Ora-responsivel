@@ -601,7 +601,7 @@ footer figure.col-6 {
    }
 }
 
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     #logo{
         position: relative;
         bottom: 20vh;
@@ -665,7 +665,7 @@ footer figure.col-6 {
    
 
 }
-
+ */
 @media screen and (max-width: 1400px) {
     #formata {
         width: 30%;
