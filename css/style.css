@@ -202,9 +202,9 @@ h3 {
     padding: 100px;
     background: rgb(186, 175, 188);
     background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(232, 31, 123, 1) 35%, rgba(71, 54, 99, 1) 100%);
-    border-radius: 70px;
-    max-height: 300px;
-    width: 75%;
+    border-radius: 50px;
+    max-height: 350px;
+    width: 70%;
     margin: auto;
 }
 
@@ -212,7 +212,7 @@ h3 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 111rem;
+    top: 117rem;
     left: 50vw;
     margin-left: 180px;
 }
@@ -429,30 +429,31 @@ footer figure.col-6 {
     }
 
     .container-balao {
-        width: 95vw;
-        height: auto;
+        min-width: 100vw;
+        min-height: 25vh;
         padding: 5px;
     }
 
     .descricao {
-        width: 70%;
+        width: 50%;
         font-size: 8px;
         font-family: 'lemon';
         margin: auto;
         text-align: left;
-        padding-left: 20px;
+        padding-left: 5px;
         position: relative;
         left: 0;
-        top: 0;
+        top: 10px;
 
     }
 
     .title {
+        text-align: center;
         font-size: 12px;
         position: relative;
-        bottom: 3vh;
-        left: 0;
-        top: 0px;
+        bottom: 1vh;
+        left: 10px;
+        top: 5px;
         border-right: none;
     }
 
@@ -493,7 +494,15 @@ footer figure.col-6 {
         top: 325px;
     }
     .cell{
-        width: 50%;
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+    
+    }
+    .social-icon{
+        position: relative;
+        bottom: 80px;
+        right: 30px;
     }
     .descoberta {
         position: relative;
@@ -545,11 +554,11 @@ footer figure.col-6 {
     }
 
     #formata {
-        width: 28rem;
-        height: 35vh;
+        width: 10rem;
+        height: 25vh;
         position: absolute;
         right: 5px;
-        top: 15vh;
+        top: 20vh;
     }
 
     #logo {
@@ -557,8 +566,9 @@ footer figure.col-6 {
     }
 
     .slogan {
-        width: 45vw;
+        width: 40vw;
         text-align: start;
+        margin-top: 50px;
     }
    .ebook{
     height: 110vh;
@@ -601,7 +611,7 @@ footer figure.col-6 {
    }
 }
 
-/* @media screen and (max-width: 800px){
+ /* @media screen and (min-width: 400px){ 
     #logo{
         position: relative;
         bottom: 20vh;
@@ -664,20 +674,18 @@ footer figure.col-6 {
     
    
 
-}
- */
-@media screen and (max-width: 1400px) {
-    #formata {
-        width: 30%;
-    }
+} */
 
+ 
+@media screen and (min-width: 1400px) {
+  
     .wrapper {
         width: 80vw;
     }
 
     .container-balao {
         min-height: 30vh;
-        width: 95vw;
+        width: 80%;
     }
 
     .valor-normal {
