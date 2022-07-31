@@ -152,8 +152,8 @@ h3 {
 }
 
 .comprar {
-    background: rgb(186,175,188);
-    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(232, 31, 123, 1) 35%, rgba(71, 54, 99, 1) 100%);
     width: 22vw;
     padding: 10px;
     font-family: 'lemon';
@@ -200,14 +200,15 @@ h3 {
     display: flex;
     align-items: center;
     padding: 100px;
-    background: rgb(186,175,188);
-    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(232, 31, 123, 1) 35%, rgba(71, 54, 99, 1) 100%);
     border-radius: 70px;
     max-height: 300px;
     width: 75%;
     margin: auto;
 }
-.valor-normal{
+
+.valor-normal {
     display: flex;
     align-items: center;
     position: absolute;
@@ -253,7 +254,7 @@ h3 {
 } */
 
 .curso_title {
-    text-align:start;
+    text-align: start;
     color: #fff;
     font-family: 'lemon';
     font-size: 22px;
@@ -271,8 +272,8 @@ h3 {
     display: flex;
     justify-content: center;
     margin-left: 100px;
-    background: rgb(186,175,188);
-    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(232, 31, 123, 1) 35%, rgba(71, 54, 99, 1) 100%);
     width: 22vw;
     padding: 10px;
     font-family: 'lemon';
@@ -289,9 +290,9 @@ h3 {
     height: 90vh;
 }
 
-h4{
-color: #fff;
-font-size: 1.5rem;
+h4 {
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 .vitor {
@@ -335,8 +336,8 @@ form {
 #enviar {
     display: flex;
     justify-content: center;
-    background: rgb(186,175,188);
-    background: linear-gradient(90deg, rgba(186,175,188,1) 0%, rgba(232,31,123,1) 35%, rgba(71,54,99,1) 100%);
+    background: rgb(186, 175, 188);
+    background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(232, 31, 123, 1) 35%, rgba(71, 54, 99, 1) 100%);
     width: 15vw;
     padding: 10px;
     font-family: 'lemon';
@@ -368,19 +369,26 @@ footer figure.col-6 {
     color: #fff;
 }
 
-.info_roda{
-  position: relative;
-  left: 50vw;
-  font-size: 16px;
+.info_roda {
+    position: relative;
+    left: 50vw;
+    font-size: 16px;
 }
 
-.info-cont{
+.info-cont {
     color: 3;
     font-size: 17px;
-    color:  rgba(232,31,123,1);
+    color: rgba(232, 31, 123, 1);
+}
+.teste-display{
+    display: none;
+    color: #fff;
+    position: relative;
+    left: 100px;
 }
 
 @media screen and (max-width: 576px) {
+   
     .logo_roda {
         width: 150px;
     }
@@ -415,7 +423,7 @@ footer figure.col-6 {
     }
 
     .curso_texto {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: bolder;
         text-align: center;
     }
@@ -423,8 +431,7 @@ footer figure.col-6 {
     .container-balao {
         width: 95vw;
         height: auto;
-        margin: auto;
-        padding: 20px;
+        padding: 5px;
     }
 
     .descricao {
@@ -446,7 +453,7 @@ footer figure.col-6 {
         bottom: 3vh;
         left: 0;
         top: 0px;
-        border-right:none;
+        border-right: none;
     }
 
     .divisa {
@@ -458,7 +465,8 @@ footer figure.col-6 {
     iframe {
         width: 90vw;
         height: 30vh;
-
+        position: relative;
+        left: 10px;
     }
 
     .days {
@@ -484,77 +492,140 @@ footer figure.col-6 {
         left: 140px;
         top: 325px;
     }
-    .descoberta{
-      position: relative;
-      bottom: 30px;
-      width: 100%;
+    .cell{
+        width: 50%;
     }
-    .spot{
+    .descoberta {
+        position: relative;
+        bottom: 30px;
+        width: 100%;
+    }
+
+    .spot {
         width: 30px;
         padding-left: 10px;
         margin-top: 2px;
     }
-.curso_title{
-    text-align: center;
-}
-    .curso_texto{
+
+    .curso_title {
+        text-align: center;
+        position: relative;
+        left: 10px;
+    }
+
+    .curso_texto {
         width: 80%;
         text-align: center;
         margin-left: 40px;
     }
-    .comprar_curso{
+
+    .comprar_curso {
         display: flex;
         justify-content: center;
         margin-left: 80px;
     }
-    .info_roda{
+
+    .info_roda {
         position: relative;
         left: 0;
         font-size: 10px;
     }
-    .info-cont{
+
+    .info-cont {
         font-size: 10px;
     }
-    .valor-normal{
+
+    .valor-normal {
         display: flex;
         align-items: center;
         position: relative;
         width: 65%;
         top: 0;
-        left: 100px;
+        left: 80px;
     }
-    #formata{
-        width: 25rem;
-        height: 52vh;
+
+    #formata {
+        width: 28rem;
+        height: 35vh;
         position: absolute;
         right: 5px;
-        top: 10vh;
+        top: 15vh;
     }
-    #logo{
+
+    #logo {
         width: 55vw;
     }
-    .slogan{
+
+    .slogan {
         width: 45vw;
         text-align: start;
     }
+   .ebook{
+    height: 110vh;
 
+   }
+   form{
+    position: relative;
+    top: 50px;
+    left: 0;
+    margin-left: 130px;
+   }
+   #enviar{
+    width: 40vw;
+   }
+   .vitor{
+    width: 80%;
+    margin-left: 40px;
+   }
+   h4{
+    text-align: center;
+   }
+   .wrapper-2{
+    display: none;
+   }
+   .teste-display{
+    display: inline-flex;
+    gap: 8px;
+    font-size: 40px;
+   }
+   h2{
+    font-size: 42px;
+    position: relative;
+    right: 45px;
+    top: 15px;
+   }
+   .ponto{
+    position: relative;
+    right: 45px;
+    top: 5px;
+   }
 }
-@media screen and (max-width: 1024px) {
-    #formata{
-    width: 30%;
+
+@media screen and (max-width: 1400px) {
+    #formata {
+        width: 30%;
     }
-    .wrapper{
-        width: 100vw;
+
+    .wrapper {
+        width: 80vw;
     }
-    .container-balao{
-        min-height: 60vh;
-        width: 100%;
+
+    .container-balao {
+        min-height: 30vh;
+        width: 95vw;
     }
-    .valor-normal{
-     margin-top: 150px;
+
+    .valor-normal {
+        margin-top: 2vh;
     }
-    .ml{
-        margin-left: 90px;
+
+    .ml {
+        margin-left: 0px;
+    }
+
+    .wrapper-2 {
+        width: 80vw;
+        margin-left: 2vw;
     }
     
 }

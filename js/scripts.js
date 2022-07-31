@@ -1,4 +1,6 @@
 
+
+
 /* Redirect page */
 /* "https://www.mediafire.com/file/0pg10alw7nufvqe/MediaFire_-_Getting_Started.pdf/file" */
  function Ebook(){
