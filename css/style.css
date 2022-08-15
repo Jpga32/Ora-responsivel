@@ -51,10 +51,10 @@ span {
 }
 
 #formata {
-    width: 350px;
+    width: 380px;
     position: absolute;
-    top: 10vh;
-    right: 5rem
+    top: 8vh;
+    right: 8rem
 }
 
 /* Formatação das imagens social */
@@ -554,11 +554,12 @@ footer figure.col-6 {
     }
 
     #formata {
-        width: 10rem;
-        height: 25vh;
+        width: 15rem;
+        height: 45vh;
         position: absolute;
-        right: 5px;
-        top: 20vh;
+        right: 0px;
+        left: 180px;
+        top: 18vh;
     }
 
     #logo {
