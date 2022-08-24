@@ -212,7 +212,7 @@ h3 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 100rem;
     left: 50vw;
     margin-left: 180px;
     margin-top: 260px;
@@ -699,7 +699,7 @@ footer figure.col-6 {
     .valor-normal {
         margin-bottom: 2vh;
         position:absolute;
-        top: 1715px;
+        top: 1700px;
         width: 24%;
     }
     iframe{
