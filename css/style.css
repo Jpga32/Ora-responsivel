@@ -212,9 +212,10 @@ h3 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 115rem;
+    top: 135rem;
     left: 50vw;
     margin-left: 180px;
+    background-color: aqua;
 }
 
 .divisa {
@@ -684,7 +685,7 @@ footer figure.col-6 {
 } */
 
  
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1300px) {
   
     .wrapper {
         width: 80vw;
