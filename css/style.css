@@ -212,10 +212,10 @@ h3 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 135rem;
+    top: 10rem;
     left: 50vw;
     margin-left: 180px;
-    background-color: aqua;
+    margin-top: 70px;
 }
 
 .divisa {
