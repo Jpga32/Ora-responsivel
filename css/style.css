@@ -212,7 +212,7 @@ h3 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 117rem;
+    top: 115rem;
     left: 50vw;
     margin-left: 180px;
 }
@@ -271,7 +271,9 @@ h3 {
 .comprar_curso {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 50px;
     background: rgb(186, 175, 188);
     background: linear-gradient(90deg, rgba(186, 175, 188, 1) 0%, rgba(232, 31, 123, 1) 35%, rgba(71, 54, 99, 1) 100%);
     width: 22vw;
@@ -356,7 +358,7 @@ footer {
 
 footer img {
     position: relative;
-    top: -40px;
+
     max-width: 250px;
 }
 
@@ -372,6 +374,7 @@ footer figure.col-6 {
 .info_roda {
     position: relative;
     left: 50vw;
+    top: 50px;
     font-size: 16px;
 }
 
@@ -386,6 +389,7 @@ footer figure.col-6 {
     position: relative;
     left: 100px;
 }
+
 
 @media screen and (max-width: 576px) {
    
@@ -429,13 +433,13 @@ footer figure.col-6 {
     }
 
     .container-balao {
-        min-width: 100vw;
+        min-width: 90vw;
         min-height: 25vh;
         padding: 5px;
     }
 
     .descricao {
-        width: 50%;
+        width: 52%;
         font-size: 8px;
         font-family: 'lemon';
         margin: auto;
@@ -464,7 +468,7 @@ footer figure.col-6 {
     }
 
     iframe {
-        width: 90vw;
+        width: 85vw;
         height: 30vh;
         position: relative;
         left: 10px;
@@ -531,7 +535,8 @@ footer figure.col-6 {
     .comprar_curso {
         display: flex;
         justify-content: center;
-        margin-left: 80px;
+        margin-left: 90px;
+        
     }
 
     .info_roda {
@@ -551,15 +556,17 @@ footer figure.col-6 {
         width: 65%;
         top: 0;
         left: 80px;
+       
     }
 
     #formata {
-        width: 15rem;
-        height: 45vh;
+        width: 12rem;
+        height: 35vh;
         position: absolute;
         right: 0px;
-        left: 180px;
-        top: 18vh;
+        left: 200px;
+        top: 15vh;
+     
     }
 
     #logo {
@@ -600,15 +607,14 @@ footer figure.col-6 {
     font-size: 40px;
    }
    h2{
-    font-size: 42px;
+    font-size: 40px;
     position: relative;
-    right: 45px;
-    top: 15px;
+    right: 50px;
+    top: 10px;
    }
    .ponto{
     position: relative;
-    right: 45px;
-    top: 5px;
+    right: 50px;
    }
 }
 
@@ -690,7 +696,13 @@ footer figure.col-6 {
     }
 
     .valor-normal {
-        margin-top: 2vh;
+        margin-bottom: 2vh;
+        position:absolute;
+        top: 1910px;
+    }
+    iframe{
+        width: 65vw;
+        height: 75vh;
     }
 
     .ml {
@@ -701,5 +713,5 @@ footer figure.col-6 {
         width: 80vw;
         margin-left: 2vw;
     }
-    
+     
 }
