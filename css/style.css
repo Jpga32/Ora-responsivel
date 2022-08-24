@@ -212,10 +212,10 @@ h3 {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 10rem;
+    top: 0;
     left: 50vw;
     margin-left: 180px;
-    margin-top: 70px;
+    margin-top: 260px;
 }
 
 .divisa {
@@ -699,7 +699,8 @@ footer figure.col-6 {
     .valor-normal {
         margin-bottom: 2vh;
         position:absolute;
-        top: 1840px;
+        top: 1715px;
+        width: 24%;
     }
     iframe{
         width: 65vw;
@@ -718,4 +719,5 @@ footer figure.col-6 {
         position: relative;
         left: 120px;
      }
+    
 }
