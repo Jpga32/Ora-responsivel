@@ -4,7 +4,7 @@
 /* Redirect page */
 /* "https://www.mediafire.com/file/0pg10alw7nufvqe/MediaFire_-_Getting_Started.pdf/file" */
  function Ebook(){
-  window.location = "https://www.mediafire.com/file/0pg10alw7nufvqe/MediaFire_-_Getting_Started.pdf/file"
+  window.location = "https://www.mediafire.com/file/esed4e0mur9up3d/E-book_Ora_de_Contabilizar.pdf/file"
  }
 
 
