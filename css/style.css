@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'gotham', sans-serif;
-    background-color: black;
+    background-image: url(../img/fundo.jpeg);
 }
 
 span {
