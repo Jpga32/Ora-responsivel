@@ -33,7 +33,7 @@ span {
 
 .slogan {
     font-family: 'gotham';
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     text-align: left;
     position: relative;
@@ -685,7 +685,7 @@ footer figure.col-6 {
 } */
 
  
-@media screen and (min-width: 1450px) {
+@media screen and (min-width: 1300px) {
   
     .wrapper {
         width: 80vw;
@@ -703,8 +703,12 @@ footer figure.col-6 {
         width: 24%;
     }
     iframe{
-        width: 65vw;
-        height: 75vh;
+        width: 50vw;
+        height: 70vh;
+    }
+
+    h3{
+        font-size: 40px;
     }
 
     .ml {
@@ -719,5 +723,29 @@ footer figure.col-6 {
         position: relative;
         left: 120px;
      }
+     .comprar{
+       font-size: 40px;
+        text-align: center;
+     }
+     .comprar_curso{
+        font-size: 40px;
+     }
+     .vitor{
+        width: 30vw;
+        height: 60vh;
+        position: relative;
+        top: 55px;
+     }
+     h4{
+        position: relative;
+        left: 20px;
+        top: 80px;
+        font-size: 30px;
+     }
+     form{
+        position: relative;
+        margin-top: 80px;
+     }
+    
     
 }
