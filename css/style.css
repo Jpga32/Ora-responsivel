@@ -751,3 +751,8 @@ footer figure.col-6 {
     
     
 }
+@media screen and (max-width: 1800px) {
+   .valor-normal{
+    margin-top: 320px;
+   }
+}
