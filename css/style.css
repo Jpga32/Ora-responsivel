@@ -171,6 +171,9 @@ h3 {
     list-style: none;
     display: block;
     color: #ffffff;
+    width: 15%;
+    position: relative;
+    top: 10px;
 }
 
 .spot {
@@ -178,12 +181,16 @@ h3 {
     width: 15%;
     height: 75%;
     margin-right: 0.9rem;
+    text-align: center;
+    
 }
 
 .podcast {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
+    bottom: 10px;
 }
 
 .podcast h6 {
@@ -392,11 +399,16 @@ footer figure.col-6 {
     left: 100px;
 }
 .wpp{
-    width: 4vw;
+    width: 5vw;
     position: fixed;
     left: 1410px;
     top: 550px;
     padding: 25px 0;
+}
+.breve{
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -625,6 +637,7 @@ footer figure.col-6 {
     right: 50px;
    }
 }
+   
 
  /* @media screen and (min-width: 400px){ 
     #logo{
@@ -753,11 +766,12 @@ footer figure.col-6 {
         position: relative;
         margin-top: 80px;
      }
-    
+     
     
 }
 @media screen and (max-width: 1800px) {
    .valor-normal{
     margin-top: 280px;
    }
+   
 }
