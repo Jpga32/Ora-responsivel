@@ -391,7 +391,13 @@ footer figure.col-6 {
     position: relative;
     left: 100px;
 }
-
+.wpp{
+    width: 4vw;
+    position: fixed;
+    left: 1410px;
+    top: 550px;
+    padding: 25px 0;
+}
 
 @media screen and (max-width: 576px) {
    
