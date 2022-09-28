@@ -701,8 +701,9 @@ footer figure.col-6 {
      }
      .wpp{
         position: fixed;
-        left: 80rem;
+        left: 75rem;
         right: 0;
+        top: 34rem;
        }
      
     
