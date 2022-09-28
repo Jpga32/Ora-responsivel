@@ -401,7 +401,7 @@ footer figure.col-6 {
 .wpp{
     width: 5vw;
     position: fixed;
-    left: 1410px;
+    left: 1510px;
     top: 550px;
     padding: 25px 0;
 }
@@ -706,7 +706,9 @@ footer figure.col-6 {
    }
    .wpp{
     position: fixed;
-    left: 75rem;
+    left: 85rem;
+    top: 1;
+
    }
    
 }
