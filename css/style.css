@@ -698,15 +698,7 @@ footer figure.col-6 {
      form{
         position: relative;
         margin-top: 80px;
-     }
-     .wpp{
-        position: fixed;
-        left: 75rem;
-        right: 0;
-        top: 34rem;
-       }
-     
-    
+     } 
 }
 @media screen and (max-width: 1800px) {
    .valor-normal{
@@ -714,7 +706,7 @@ footer figure.col-6 {
    }
    .wpp{
     position: fixed;
-    left: 85rem;
+    left: 75rem;
    }
    
 }
