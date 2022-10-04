@@ -401,9 +401,9 @@ footer figure.col-6 {
 .wpp{
     width: 5vw;
     position: fixed;
-    left: 1510px;
-    top: 550px;
+    top: 480px;
     padding: 25px 0;
+    
 }
 .breve{
     font-size: 12px;
@@ -699,16 +699,20 @@ footer figure.col-6 {
         position: relative;
         margin-top: 80px;
      } 
+     .wpp{
+        position: fixed;
+        left: 78rem;
+       }
+}
+@media screen and (min-width: 1500px) {
+    .wpp{
+        position: fixed;
+        left: 1380px;
+        top: 33rem;
+    }
 }
 @media screen and (max-width: 1800px) {
    .valor-normal{
     margin-top: 280px;
    }
-   .wpp{
-    position: fixed;
-    left: 85rem;
-    top: 1;
-
-   }
-   
 }
