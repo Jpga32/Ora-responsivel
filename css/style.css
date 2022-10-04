@@ -191,6 +191,7 @@ h3 {
     justify-content: space-evenly;
     position: relative;
     bottom: 10px;
+    left: 30px;
 }
 
 .podcast h6 {
@@ -202,6 +203,7 @@ h3 {
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
+    
 }
 
 .container-balao {
@@ -216,6 +218,7 @@ h3 {
     width: 70%;
     margin: auto;
 }
+
 
 .valor-normal {
     display: flex;
