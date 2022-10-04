@@ -704,14 +704,22 @@ footer figure.col-6 {
         left: 78rem;
        }
 }
+@media screen and (min-width: 1400px) {
+.wpp{
+   position: fixed;
+   left: 1380px;
+   
+}    
+}
 /* Fechando uma área limitada para limitar a regra de Media screen  */
 @media screen and (min-width: 1500px) {
     .wpp{
         position: fixed;
         left: 1380px;
-        top: 33rem;
+        top: 30rem;
     }
 }
+
 @media screen and (max-width: 1800px) {
    .valor-normal{
     margin-top: 280px;
