@@ -401,7 +401,7 @@ footer figure.col-6 {
 .wpp{
     width: 5vw;
     position: fixed;
-    top: 480px;
+    top: 880px;
     padding: 25px 0;
     
 }
@@ -704,6 +704,7 @@ footer figure.col-6 {
         left: 78rem;
        }
 }
+/* Fechando uma área limitada para limitar a regra de Media screen  */
 @media screen and (min-width: 1500px) {
     .wpp{
         position: fixed;
