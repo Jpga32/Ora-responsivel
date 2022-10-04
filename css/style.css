@@ -219,6 +219,9 @@ h3 {
     margin: auto;
 }
 
+.balao{
+    width: 80%;
+}
 
 .valor-normal {
     display: flex;
