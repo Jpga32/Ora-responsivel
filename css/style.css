@@ -230,6 +230,7 @@ h3 {
     left: 50vw;
     margin-left: 180px;
     margin-top: 400px;
+    height: 45vh;
 }
 
 .divisa {
@@ -305,6 +306,7 @@ h3 {
 
 .ebook {
     height: 90vh;
+    width: 35%;
 }
 
 h4 {
@@ -348,6 +350,7 @@ form {
     font-weight: bolder;
     display: block;
     font-size: 17px;
+    margin-right: 210px;
 }
 
 #enviar {
@@ -658,7 +661,7 @@ footer figure.col-6 {
     .valor-normal {
         margin-bottom: 2vh;
         position: absolute;
-        top: 1740px;
+        top: 1700px;
         width: 24%;
     }
     iframe{
