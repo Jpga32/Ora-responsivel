@@ -544,9 +544,22 @@ footer figure.col-6 {
     }
 
     .spot {
-        width: 30px;
-        padding-left: 10px;
+        width: 25px;
+        padding-left: 0px;
         margin-top: 2px;
+    }
+    .podcast{
+        width: 100vw;
+        margin-left: -50px; 
+    }
+    .podcast a {
+        font-size: 18px;
+        width: 50vw;
+        position: relative;
+        right: 10px;
+    }
+    .balao{
+        width: 100vw;
     }
 
     .curso_title {
@@ -564,7 +577,8 @@ footer figure.col-6 {
     .comprar_curso {
         display: flex;
         justify-content: center;
-        margin-left: 90px;
+        margin-left: 80px;
+        margin-top: 210px;
         
     }
 
@@ -581,10 +595,11 @@ footer figure.col-6 {
     .valor-normal {
         display: flex;
         align-items: center;
-        position: relative;
-        width: 65%;
-        top: 0;
-        left: 80px;
+        position: absolute;
+        width: 50%;
+        height: 30vh;
+        top: 2280px;
+        left: 110px;
        
     }
 
@@ -608,7 +623,7 @@ footer figure.col-6 {
         margin-top: 50px;
     }
    .ebook{
-    height: 110vh;
+    height: 100vh;
 
    }
    form{
@@ -630,22 +645,15 @@ footer figure.col-6 {
    .wrapper-2{
     display: none;
    }
-   .teste-display{
-    display: inline-flex;
-    gap: 8px;
-    font-size: 40px;
+   .ebook{
+    width: 90%;
    }
-   h2{
-    font-size: 40px;
-    position: relative;
-    right: 50px;
-    top: 10px;
-   }
-   .ponto{
-    position: relative;
-    right: 50px;
-   }
-  
+  .wpp{
+    position: fixed;
+    left: 350px;
+    top: 600px;
+    width: 10vw;
+  }
 }
 @media screen and (min-width: 1300px) {
   
