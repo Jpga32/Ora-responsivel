@@ -433,6 +433,7 @@ footer figure.col-6 {
     .valor-normal {
         width: 500px;
         margin: 0;
+
     }
 
     .valores {
@@ -459,6 +460,7 @@ footer figure.col-6 {
         font-size: 1rem;
         font-weight: bolder;
         text-align: center;
+    
     }
 
     .container-balao {
@@ -554,9 +556,10 @@ footer figure.col-6 {
     }
     .podcast a {
         font-size: 18px;
-        width: 50vw;
+        width: 25vw;
         position: relative;
         right: 10px;
+        font-size: 15px;
     }
     .balao{
         width: 100vw;
@@ -596,10 +599,10 @@ footer figure.col-6 {
         display: flex;
         align-items: center;
         position: absolute;
-        width: 50%;
+        width: 60vw;
         height: 30vh;
-        top: 2280px;
-        left: 110px;
+        top: 2320px;
+        left: 100px;
        
     }
 
@@ -610,6 +613,7 @@ footer figure.col-6 {
         right: 0px;
         left: 200px;
         top: 15vh;
+        display: none;
      
     }
 
@@ -653,6 +657,10 @@ footer figure.col-6 {
     left: 350px;
     top: 600px;
     width: 10vw;
+    display: none;
+  }
+  .balao{
+    width: 95vw;
   }
 }
 @media screen and (min-width: 1300px) {
